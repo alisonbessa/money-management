@@ -5,7 +5,7 @@ interface Transaction {
   id: number
   description: string
   type: 'income' | 'outcome'
-  price: number
+  amount: number
   category: string
   createdAt: string
 }

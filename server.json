@@ -5,7 +5,7 @@
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
-      "price": 14000,
+      "amount": 14000,
       "createdAt": "2022-09-06T13:07:22.637Z"
     },
     {
@@ -13,7 +13,7 @@
       "description": "Jantar",
       "type": "outcome",
       "category": "Venda",
-      "price": 120,
+      "amount": 120,
       "createdAt": "2022-09-05T13:07:22.637Z"
     }
   ]
