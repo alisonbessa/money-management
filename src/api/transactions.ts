@@ -1,12 +1,11 @@
-const url = new URL('http://localhost:3333/transactions')
+import { api } from './../lib/axios'
 
 export const getTransactions = async (query?: string) => {
-  if (query) {
-    url.searchParams.append('q', query)
-  }
+  const response = await api.get('/transactions', {
+    params: {
+      q: query,
+    },
+  })
 
-  const response = await fetch(url)
-  const data = await response.json()
-
-  return data
+  return response.data
 }
