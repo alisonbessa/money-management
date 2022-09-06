@@ -5,7 +5,7 @@
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
-      "amount": 14000,
+      "value": 14000,
       "createdAt": "2022-09-06T13:07:22.637Z"
     },
     {
@@ -13,8 +13,24 @@
       "description": "Jantar",
       "type": "outcome",
       "category": "Venda",
-      "amount": 120,
+      "value": 120,
       "createdAt": "2022-09-05T13:07:22.637Z"
+    },
+    {
+      "description": "Freela",
+      "value": 5000,
+      "category": "Dev",
+      "type": "income",
+      "createdAt": "2022-09-06T18:49:49.538Z",
+      "id": 3
+    },
+    {
+      "description": "Espetinho",
+      "value": 25,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2022-09-06T19:09:09.605Z",
+      "id": 4
     }
   ]
 }
